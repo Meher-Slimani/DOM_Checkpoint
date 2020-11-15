@@ -1,0 +1,138 @@
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.background {
+  position: relative;
+  z-index: 2;
+}
+
+.background h1 {
+  position: absolute;
+  left: 800px;
+  bottom: 500px;
+  font-size: 70px;
+  color: #e7ab3c;
+  font-family: "Dancing Script", cursive;
+  z-index: 3;
+}
+
+.cart .table {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.cart .table thead tr th {
+  border-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 0px;
+  text-align: center;
+}
+
+.cart .table tbody tr {
+  background-color: none;
+}
+
+.cart .table tbody tr td {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  align-self: center;
+  text-align: center;
+}
+
+.cart .table tbody tr td .main .d-flex {
+  padding-right: 30px;
+}
+
+.cart .table tbody tr td .main .d-flex img {
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.cart .table tbody tr td .main .des {
+  vertical-align: middle;
+  align-self: center;
+}
+
+.cart .table tbody tr td .main .des p {
+  margin-bottom: 0px;
+}
+
+.cart .table tbody tr .text-right {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  align-self: center;
+  text-align: center;
+}
+
+.cart .table tbody tr td h5 {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 0px;
+}
+
+.cart .table tbody tr td .counter {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.glyphicon.glyphicon-minus:before {
+  content: "\2212";
+}
+
+.btn.btn-danger.btn-number,
+.btn.btn-success.btn-number {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+.glyphicon.glyphicon-plus:before {
+  content: "\002B";
+}
+
+.fa-heart::before {
+  content: "\2661";
+}
+
+.counter span {
+  display: inline-block;
+}
+
+.cart .table tbody tr td .counter input {
+  width: 100px;
+  padding-left: 30px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+.checkout ul {
+  border: 2px solid #ebebeb;
+  background: #252525;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.checkout ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.checkout ul li span {
+  color: #e7ab3c;
+  float: right;
+}
